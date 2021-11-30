@@ -85,4 +85,6 @@ $ npm run test
 
 ## License
 
-Symfony is released under the under terms of the [MIT License](LICENSE).
+This project is licensed under the ISC License - see the [LICENSE.md](LICENSE) file for details
+
+
