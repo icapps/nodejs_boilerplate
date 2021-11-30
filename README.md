@@ -67,13 +67,13 @@ $ npm run format:check
 
 ```bash
 # Create (and start) docker containers
-$ docker-compose up
+$ docker compose up -d
 
 # Start docker containers
-$ docker-compose start
+$ docker compose start
 
 # Stop running containers
-$ docker-compose stop
+$ docker compose stop
 ```
 
 ### Testing
