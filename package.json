@@ -12,7 +12,8 @@
     "build": "npm run clean && tsc",
     "start": "node ./build/server.js",
     "serve": "npx cross-env NODE_ENV=local ts-node-dev --respawn --transpile-only ./src/server.ts",
-    "test": "jest --maxWorkers=1 --forceExit -c jest.config.js"
+    "test": "jest --maxWorkers=1 --forceExit -c jest.config.js",
+    "test:coverage": "npm run test -- --coverage --collectCoverageFrom=src/**/*.ts"
   },
   "dependencies": {
     "dotenv-safe": "~8.2.0",
